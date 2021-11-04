@@ -18,7 +18,7 @@ public class VootIdcreationandVote {
 	public static void main(String[] args) throws  FileNotFoundException 
 
     {
-		
+		//create id with website http://thebot.net/api/gmail/ save with name emailId.csv give bath below.
 		Scanner sc = new Scanner(new File("C:\\Users\\Alisha\\Documents\\twitterbot\\driver2\\emailId.csv"));  
 		sc.useDelimiter("\n");   //sets the delimiter pattern  
 		while (sc.hasNext())  //returns a boolean value  
